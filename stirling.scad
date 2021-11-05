@@ -1,3 +1,7 @@
+// https://www.youtube.com/watch?v=ed7T2NG7j38 Magnet LTD Ringbom Stirling engine
+// https://www.youtube.com/watch?v=TzweLbneAXg Low Temperature Stirling Motor with neodym magnet
+// https://www.youtube.com/watch?v=wGRmcvxB_dk How A Stirling Engine Works
+
 // small piston
 dim_piston_worker    =  [ 10.0, 15.0    ]; // outer d, h of working piston
 dim_piston_worker_stroke = 10;
