@@ -4,6 +4,8 @@
 magnets. Such engine should work on verly low temperatue
 difference like few °C
 
+![Image](/pic/animated.gif)
+
 Videos of actual models with magnets:
 [Magnet LTD Ringbom Stirling engine](https://www.youtube.com/watch?v=ed7T2NG7j38),
 [Low Temperature Stirling Motor with neodym magnet](https://www.youtube.com/watch?v=TzweLbneAXg).
