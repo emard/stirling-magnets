@@ -1,8 +1,8 @@
 all: animated.gif
-	convert 'frame*.png' -set delay 1x25 animated.gif
+	convert 'frame*.png' -set delay 1x25 pic/animated.gif
 
-view: animated.gif
-	mpv -loop animated.gif
+view: pic/animated.gif
+	mpv -loop pic/animated.gif
 
 clean:
-	rm -f animated.gif frame*.png
+	rm -f frame*.png
