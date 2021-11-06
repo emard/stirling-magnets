@@ -3,6 +3,8 @@
 // https://www.youtube.com/watch?v=wGRmcvxB_dk How A Stirling Engine Works
 
 // animate time=1 fps=25 steps=25
+// convert 'frame*.png' -set delay 1x25 animated.gif
+// mpv -loop animated.gif
 
 // small piston
 dim_piston_worker    =  [ 10.0, 15.0    ]; // outer d, h of working piston
@@ -53,7 +55,7 @@ module piston_mixer()
     cylinder(d = dim_piston_mixer[0], h = dim_piston_mixer[1], $fn=64, center=true);
     cylinder(d = dim_magnet_mixer[0]+0.1, dim_piston_mixer[1]+0.1,center=true);
   }
-  magnet(d=dim_magnet_mixer[0], h=dim_magnet_mixer[1], $fn=32, center=true);
+  magnet(d=dim_magnet_mixer[0], h=dim_magnet_mixer[1]);
 }
 
 module cylinder_mixer()
